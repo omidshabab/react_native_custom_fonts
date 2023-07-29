@@ -5,6 +5,9 @@
       "bundler": "metro"
     },
     "name": "react_native_custom_fonts",
-    "slug": "react_native_custom_fonts"
+    "slug": "react_native_custom_fonts",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
