@@ -4,6 +4,7 @@ import { useCallback } from "react";
 import { Text, View } from "react-native";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
+import * as NavigationBar from "expo-navigation-bar";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -21,6 +22,9 @@ export default function App() {
   if (!fontsLoaded) {
     return null;
   }
+
+  NavigationBar.setBackgroundColorAsync("white");
+  NavigationBar.setButtonStyleAsync("dark");
 
   return (
     <View

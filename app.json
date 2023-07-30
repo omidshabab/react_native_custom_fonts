@@ -4,10 +4,8 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "react_native_custom_fonts",
+    "name": "React Native Custom Font",
     "slug": "react_native_custom_fonts",
-    "plugins": [
-      "expo-router"
-    ]
+    "plugins": ["expo-router"]
   }
 }
